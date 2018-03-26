@@ -8,6 +8,7 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
     
+    <script src="textslider.js"></script>
     <style>
       body {
         margin: 0;
@@ -18,12 +19,23 @@
         margin: 30px auto;
         width: 200px;
       }
+    </style>
   </head>
   <body>
 
     <div id="slider">
       <span>Przesuwany tekst</span>
     </div>
+
+    <script>
+      let slider = createSlider($('#slider'));
+      if (slider) {
+        slider.dir(RIGHT);
+        slider.animate();
+      } else {
+        console.error('An error has occured while creating a new TextSlider')
+      }
+    </script>
     
   </body>
 </html>

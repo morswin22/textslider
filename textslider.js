@@ -53,7 +53,3 @@ function createSlider(self) {
   }
 
 }
-
-let slider = createSlider($('#slider'));
-slider.dir(RIGHT);
-slider.animate();
