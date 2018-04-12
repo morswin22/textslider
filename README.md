@@ -20,7 +20,7 @@ Text slider object comes with two functions:
 // example
 let slider = createSlider($('#mySlider'));
 if (slider) {
-  slider.dir(RIGHT);
+  slider.dir(TEXTSLIDER_RIGHT);
   slider.animate();
 }
 ```
