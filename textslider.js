@@ -1,5 +1,5 @@
-const LEFT = -1;
-const RIGHT = 1;
+const TEXTSLIDER_LEFT = -1;
+const TEXTSLIDER_RIGHT = 1;
 
 function createSlider(self) {
 
